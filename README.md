@@ -1,66 +1,79 @@
-Breast Cancer Prediction System
-📌 Project Description
-A machine learning-based web application that predicts breast cancer malignancy (benign/malignant) with 97% accuracy. The system offers two modes:
+# Breast Cancer Prediction System
 
-Quick Prediction (10 Key Features): Uses only the most important features for faster diagnosis
+A machine learning-based web application that predicts breast cancer malignancy (benign/malignant) with up to 97% accuracy. The system supports two prediction modes for flexibility and efficiency.
 
-Comprehensive Prediction (30 Features): Uses all available features for maximum accuracy
+## Project Description
 
-Built with:
+This project provides a user-friendly platform for quick and comprehensive breast cancer diagnosis using machine learning models. It is designed for medical professionals, researchers, and students seeking accurate predictive insights.
 
-Python + Scikit-learn (ML models)
+Prediction Modes:
 
-Streamlit (Web interface)
+* Quick Prediction (10 Features): Uses the most significant features for faster diagnosis
+* Comprehensive Prediction (30 Features): Uses all available features for maximum accuracy
 
-Joblib (Model serialization)
+Technology Stack:
 
-🚀 Key Features
-Dual Prediction Modes: Toggle between 10 or 30 input features
+* Python + Scikit-learn (Machine Learning)
+* Streamlit (Web Interface)
+* Joblib (Model Serialization)
 
-Medical-Grade Accuracy: 97% test accuracy on Wisconsin Breast Cancer Dataset
+## Key Features
 
-User-Friendly Interface: Interactive sliders for all diagnostic parameters
+* Dual Prediction Modes: Switch between 10-feature quick prediction or full 30-feature comprehensive prediction
+* High Accuracy: 97% test accuracy on the Wisconsin Breast Cancer Dataset
+* Interactive Interface: Sliders for all diagnostic parameters
+* Instant Results: Clear benign/malignant classification with visual cues
 
-Instant Results: Clear benign/malignant classification with visual indicators
+## Repository Structure
 
-📂 Repository Structure
-text
+```
 breast-cancer-prediction/
-├── app.py                # Streamlit web application
-├── models/               # Trained models
+├── app.py                        # Streamlit web application
+├── models/                       # Pre-trained models
 │   ├── logistic_regression_selected.pkl
 │   ├── scaler.pkl
 │   └── selector.pkl
-├── training_notebook.ipynb  # Model training notebook
-└── README.md             # This file
-🛠️ Installation
-Clone repository:
+├── training_notebook.ipynb       # Model training notebook
+└── README.md                     # Project overview
+```
 
-bash
+## Installation & Setup
+
+Clone the repository:
+
+```bash
 git clone https://github.com/yourusername/breast-cancer-prediction.git
 cd breast-cancer-prediction
-Install requirements:
+```
 
-bash
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
-Run the app:
+```
 
-bash
+Run the web application:
+
+```bash
 streamlit run app.py
-📊 Technical Highlights
-Feature Selection: ANOVA F-test for identifying top 10 most significant features
+```
 
-Model Comparison:
+## Technical Highlights
 
-Logistic Regression: 97% accuracy
+* Feature Selection: ANOVA F-test to identify the top 10 significant features
+* Model Comparison:
 
-Random Forest: 96% accuracy
+  * Logistic Regression: 97% accuracy
+  * Random Forest: 96% accuracy
+* Preprocessing: StandardScaler for input normalization
 
-Preprocessing: StandardScaler for normalized inputs
+## Potential Applications
 
-🌟 Potential Applications
-Preliminary diagnosis tool for clinics
+* Preliminary diagnostic support in clinical settings
+* Educational tool for medical students
+* Research benchmarking for predictive models
 
-Medical education resource
+## Contact Me
 
-Research benchmarking tool
+Connect with me on LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/muhammad-hassaan-munir-79b5b2327/)
+
